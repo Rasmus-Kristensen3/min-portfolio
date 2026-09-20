@@ -92,11 +92,9 @@ font-size: small;
     height: 25px;
 }
 
-@media screen and (max width: 500px){
-#no-project {width: 100%;};
-
-
-
-
+@media screen and (max-width: 500px) {
+#no-project{
+    width: 100%;
+}
 
 }
