@@ -91,10 +91,21 @@ font-size: small;
     width: 25px;
     height: 25px;
 }
-
 @media screen and (max-width: 500px) {
-#no-project{
-    width: 100%;
+    #no-project{
+        width: 100%;}
+    .hobbies ul{
+        flex-direction: column;
+        align-items: center;}
+     .footer-container{flex-direction: column;
+         align-items: center;
+         gap: 10px;
+     }
+.footer-contact{
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
 }
+
 
 }
