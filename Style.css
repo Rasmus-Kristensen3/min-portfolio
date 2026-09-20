@@ -29,8 +29,12 @@ p {
     font-size: 1.3rem;
     margin-bottom: 75px;
 }
+#no-project {
+    width: 600px;
+    height: auto;
+}
 
-.hobbies h2{
+#hobbies h2{
     border-bottom: 1px solid;
 
 }
