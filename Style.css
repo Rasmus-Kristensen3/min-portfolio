@@ -1,0 +1,82 @@
+
+.main-container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
+body {
+    font-family: arial, sans-serif;
+}
+nav {
+    margin-bottom: 50px;
+    text-align: center;
+}
+h1 {
+    border-bottom: 1px solid;
+    margin-bottom: 100px ;
+    color: midnightblue;
+    text-align: center;
+    font-size: 2.5rem;
+}
+h2 {
+    color: midnightblue;
+    text-align: center;
+    font-size: 1.8rem;
+}
+p {
+    text-align: left;
+    font-size: 1.3rem;
+    margin-bottom: 75px;
+}
+
+.hobbies h2{
+    border-bottom: 1px solid;
+
+}
+.hobbies ul{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px
+}
+.lego-picture{
+    width: 250px;
+    height: auto;
+}
+
+.footer-contact  {list-style: none;
+    display: flex;
+
+    gap: 15px;
+}
+
+.footer-socials {list-style: none;
+    display: flex;
+    gap: 5px;
+}
+
+footer {
+    background-color: lightsteelblue;
+font-size: small;
+}
+.footer li {
+    color: midnightblue;
+}
+.footer a {
+    color: midnightblue;
+}
+.footer-container {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+.social-icon {
+    width: 25px;
+    height: 25px;
+}
+

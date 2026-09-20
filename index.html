@@ -3,46 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <title>Rasmus's Portfolio</title>
-
+    <link rel="stylesheet" href="Style.css">
 </head>
 <body>
-<main>
-<header>
-    <nav>
-    <a href="#about-me"><strong>About me</strong></a>
-    <a href="#education"><strong>Education</strong></a>
-    <a href="#work-experience"><strong>Work experience</strong></a>
-    <a href="#projects"><strong>Projects</strong></a>
-    <a href="#hobbies"><strong>Hobbies</strong></a>
-    </nav>
-</header>
+<div class="main-container">
+    <header>
+        <nav>
+            <a href="#about-me">About me</a>
+            <a href="#education">Education</a>
+            <a href="#work-experience">Work experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#hobbies">Hobbies</a>
+        </nav>
+
+    </header>
+    <main>
+
+
 <h1> Hi my name is Rasmus Gramkow Kristensen</h1>
     <section id="about-me" class="about-me">
+
 <h2> About me</h2>
-        <p>I am currently in my first semester of the bachelor’s degree in IT Architecture at Business Academy Copenhagen <a href="https://www.ek.dk/?utm_campaign=brand&utm_source=google&utm_medium=cpc&gad_source=1&gad_campaignid=1348347557&gbraid=0AAAAAD5ytlLOpY3yjsFM2yTv615kmBDGo&gclid=CjwKCAjwwfnUBhAtEiwAfQpAYpHP2_5iXBJ5KRR15Hy9xcYohzw3AXu8CRNRLlgBaxqVEaPrr8eXeRoCb34QAvD_BwE"><strong>(EK)</strong></a> I have a strong interest in computers, technology and gaming. </p>
+        <p>I am currently in my first semester of the bachelor’s degree in IT Architecture at Business Academy Copenhagen <a href="https://www.ek.dk/?utm_campaign=brand&utm_source=google&utm_medium=cpc&gad_source=1&gad_campaignid=1348347557&gbraid=0AAAAAD5ytlLOpY3yjsFM2yTv615kmBDGo&gclid=CjwKCAjwwfnUBhAtEiwAfQpAYpHP2_5iXBJ5KRR15Hy9xcYohzw3AXu8CRNRLlgBaxqVEaPrr8eXeRoCb34QAvD_BwE"><strong>(EK)</strong></a>. I have a strong interest in computers, technology and gaming. I also enjoy building LEGO in my spare time. </p>
     </section>
 
 
     <section id="education" class="education">
         <h2>Education</h2>
-         <ul>
-             <li> <a href="https://virum-gym.dk/"> Virum Gymnasium(STX)</a> with a focus on Social Sciences and English </li>
-             <li> <a href="https://www.bagkost.dk/bagsv%C3%A6rd-kostskole-og-gymnasium/forside">Bagsværd Kostskole</a> 10th Grade</li>
-         </ul>
+        <p>I attended <a href="https://engelsborgskolen.ltk.dk/">Engelsborgskolen</a> for primary school, before completing 10th grade at <a href="https://www.bagkost.dk/bagsv%C3%A6rd-kostskole-og-gymnasium/forside">Bagsværd Kostskole</a>. After that, I attended <a href="https://virum-gym.dk/">Virum Gymnasium</a>, where I studied Social Sciences and English. I am now studying IT Architecture at Business Academy Copenhagen and am currently in my first semester.
 
-
+        </p>
     </section>
 
     <section id="work-experience" class="work-experience">
         <h2>Work experience</h2>
-        <ul>
-            <li> <a href="https://rema1000.dk/find-butik-og-abningstider/895">Rema 1000</a> Store assistant </li>
-            <li> <a href="https://gladsaxe.dk/borger/seniorer/boliger-for-seniorer/plejeboliger/moellegaarden">Møllegården</a> On call assistent at retirement home </li>
-            <li> <a href="https://staehrgroup.com/about/">Hænning Stæhr</a> Warehouse assistant </li>
+        <p>I have gained work experience from several different roles. I have worked as a store assistant at <a href="https://rema1000.dk/find-butik-og-abningstider/895">Rema 1000</a> as an on-call assistant at <a href="https://gladsaxe.dk/borger/seniorer/boliger-for-seniorer/plejeboliger/moellegaarden">Møllegården</a> retirement home, and as a warehouse assistant at <a href="https://staehrgroup.com/about/">Hænning Stæhr</a>. These jobs have given me experience working in different environments and with different types of responsibilities.
 
 
-
-        </ul>
+        </p>
 
     </section>
 
@@ -50,7 +48,6 @@
         <h2>Projects</h2>
 
         <p>Currently none</p>
-
 
     </section>
 
@@ -61,20 +58,29 @@
         In my spare time I enjoy playing video games and building LEGO.
 
     </p>
-
-
+    <ul>
+        <li>
+            <img class="lego-picture" src="R2D2.jpeg" alt="Legoset of R2D2"> </li>
+        <li> <img class="lego-picture" src="Ornithopter.jpeg" alt="Legoset of Ornithopter"> </li>
+    </ul>
 </section>
+
 </main>
 
-<footer>
-    <ul>
-    <li> <a class= "email" href="mailto:rasmuskristensen53@gmail.com"> rasmuskristensen53@gmail.com </a></li>
-        <li> Phone: +45 24 65 61 84 </li>
-        <li> <a href="https://www.linkedin.com/in/rasmus-gramkow-kristensen-9b9b53434/"> Linkedin</a> </li>
-        <li> <a href="https://github.com/Rasmus-Kristensen3"> Github</a> </li>
 
+</div>
+<footer class="footer">
+    <div class="footer-container">
+    <ul class="footer-contact">
+    <li> <a class= "email" href="mailto:rasmuskristensen53@gmail.com">rasmuskristensen53@gmail.com</a></li>
+        <li class="phone"> Phone: +45 24 65 61 84 </li>
+    </ul>
+    <ul class="footer-socials">
+        <li> <a class= "linkedin" href="https://www.linkedin.com/in/rasmus-gramkow-kristensen-9b9b53434/"><img class=" social-icon" src="linkedin-midnightblue.png" alt=" linkedin logo"> </a> </li>
+        <li> <a class= "github" href="https://github.com/Rasmus-Kristensen3"> <img class="social-icon"  src="github-midnightblue.png" alt = "github logo">  </a> </li>
 
     </ul>
+    </div>
 </footer>
 </body>
 </html>
