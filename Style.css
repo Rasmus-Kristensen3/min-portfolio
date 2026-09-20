@@ -5,7 +5,12 @@
     padding: 20px;
 }
 
+
+header a{color: midnightblue;
+
+}
 body {
+    margin: 0;
     font-family: arial, sans-serif;
 }
 nav {
@@ -43,7 +48,10 @@ p {
     list-style: none;
     display: flex;
     justify-content: space-between;
-    gap: 50px
+    gap: 50px;
+}
+.hobbies {
+    margin-bottom: 50px;
 }
 .lego-picture{
     width: 250px;
@@ -84,3 +92,11 @@ font-size: small;
     height: 25px;
 }
 
+@media screen and (max width: 500px){
+#no-project {width: 100%;};
+
+
+
+
+
+}
